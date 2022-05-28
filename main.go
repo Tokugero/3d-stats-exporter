@@ -3,7 +3,7 @@ package main
 import (
 	"fmt"
 
-	"printerscraper/handlers"
+	"github.com/Tokugero/3d-stats-exporter/handlers"
 )
 
 func main() {
