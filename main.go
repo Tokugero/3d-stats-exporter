@@ -9,8 +9,8 @@ import (
 func main() {
 	endpoint := "http://192.168.20.230:7125"
 
-	status := handlers.Get_status(endpoint)
-	system_info := handlers.System_info(endpoint)
+	status := handlers.GetStatus(endpoint)
+	system_info := handlers.GetSystemInfo(endpoint)
 	// system_info(endpoint)
 
 	fmt.Print(status.Result.Status.DisplayStatus.Progress)
